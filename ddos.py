@@ -10,5 +10,5 @@ i = 1
 
 while i < 10:
   r = requests.get(sys.argv[1])
-  print("[*] request sent: " + r)
+  print("[*] request sent")
 i+=1
