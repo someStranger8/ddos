@@ -9,6 +9,6 @@ time.sleep(1)
 i = 1
 
 while i < 10:
-  r = request.get(sys.argv[1])
+  r = requests.get(sys.argv[1])
   print("[*] request sent: " + r)
 i+=1
